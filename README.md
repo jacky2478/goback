@@ -6,7 +6,7 @@ Based on WM_COPYDATA, realize two-way communication between go language and c++,
 # example
 
 ```
-// MainWnd为UI主窗口名称 
+// MainWnd is the name of the UI main window
 obj := goback.Regist("MainWnd")
 go func() {
 	for {
